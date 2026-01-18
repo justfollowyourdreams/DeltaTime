@@ -17,7 +17,7 @@ int main()
     // ------------------------------
 
     // Variables for animation
-    float   FrameTime = 0.0f, // Frame time is an counter animation time.
+    float   FrameTime = 0.0f, // Frame time is a counter of animation time.
             EndTime = .8f;   // End time is the time when the animation should end (animation duration).
     bool Reached = false;   // Flag to know if the animation reached the end.
     // ------------------------------
