@@ -1,0 +1,7 @@
+cmake_minimum_required (VERSION 3.10)
+project (DeltaTime)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+add_executable(DeltaTime Main.cpp)
+set(CMAKE_COMP)
+find_package(raylib CONFIG REQUIRED)
+target_link_libraries(DeltaTime PRIVATE raylib)
